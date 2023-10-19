@@ -1,6 +1,5 @@
 import { IssueSchema } from "@/app/validationSchema";
 import prisma from "@/prisma/client";
-import { BorderStyleIcon } from "@radix-ui/react-icons";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function PATCH(
